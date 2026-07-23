@@ -50,14 +50,14 @@ end
 
 Tabs.MM2:AddButton({
 	Title = "Autofarm",
-	Description = "Autofarm, Autoshoot and more",
-	Callback = function() Load("https://cdn.project-reverse.org/mm2_summer_farm.luau", "Autofarm") end
+	Description = "Autofarm Summer",
+	Callback = function() Load("https://raw.githubusercontent.com/renardofficiel/games/refs/heads/main/loader.lua", "Autofarm") end
 })
 
 Tabs.MM2:AddButton({
 	Title = "Autofarm 2",
-	Description = "Autofarm, Autoshoot and more",
-	Callback = function() Load("https://raw.githubusercontent.com/renardofficiel/games/refs/heads/main/loader.lua", "Autofarm 2") end
+	Description = "Autofarm Reverse",
+	Callback = function() Load("https://cdn.project-reverse.org/mm2_summer_farm.luau", "Autofarm 2") end
 })
 
 Tabs.MM2:AddButton({
