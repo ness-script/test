@@ -49,6 +49,12 @@ local function Load(url, name)
 end
 
 Tabs.MM2:AddButton({
+	Title = "Autofarm",
+	Description = "Autofarm, Autoshoot and more",
+	Callback = function() Load("https://raw.githubusercontent.com/renardofficiel/games/refs/heads/main/loader.lua", "Autofarm") end
+})
+
+Tabs.MM2:AddButton({
 	Title = "Overdrive Unlocked",
 	Description = "Silent aim, ESP (no key required)",
 	Callback = function() Load("https://cdn.project-reverse.org/overdrive_uncopylocked.luau", "Overdrive Keyless") end
@@ -58,13 +64,6 @@ Tabs.MM2:AddButton({
 	Title = "Reverse",
 	Description = "Spawner, Auto Farm, Check Inventory, ESP and More",
 	Callback = function() Load("https://cdn.project-reverse.org/mm2_visual_new_ui.luau", "Reverse MM2") end
-})
-
-
-Tabs.MM2:AddButton({
-	Title = "Autofarm",
-	Description = "Autofarm, Autoshoot and more",
-	Callback = function() Load("https://raw.githubusercontent.com/renardofficiel/games/refs/heads/main/loader.lua", "Autofarm") end
 })
 
 Tabs.MM2:AddButton({
