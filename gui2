@@ -55,9 +55,9 @@ Tabs.MM2:AddButton({
 })
 
 Tabs.MM2:AddButton({
-	Title = "Autofarm 2",
-	Description = "Autofarm Reverse",
-	Callback = function() Load("https://cdn.project-reverse.org/mm2_summer_farm.luau", "Autofarm 2") end
+	Title = "Ness Trainer MM2",
+	Description = "Trainer with bots and bomb",
+	Callback = function() Load("https://raw.githubusercontent.com/ness-script/test/refs/heads/main/trainer", "Autofarm 2") end
 })
 
 Tabs.MM2:AddButton({
