@@ -49,39 +49,34 @@ local function Load(url, name)
 end
 
 Tabs.MM2:AddButton({
-	Title = "Autofarm",
-	Description = "Autofarm Summer",
-	Callback = function() Load("https://raw.githubusercontent.com/renardofficiel/games/refs/heads/main/loader.lua", "Autofarm") end
+	Title = "Meow Hub ¡UPDATE!",
+	Description = "Silent aim, ESP, Autofarm, Bomb trick",
+	Callback = function() Load("https://pastebin.com/raw/UjS6QYkQ", "Meow Hub") end
 })
 
 Tabs.MM2:AddButton({
-	Title = "Ness Trainer MM2",
-	Description = "Trainer with bots and bomb",
-	Callback = function() Load("https://raw.githubusercontent.com/ness-script/test/refs/heads/main/trainer", "Autofarm 2") end
+	Title = "YARHM ¡NEW!",
+	Description = "YARHM",
+	Callback = function() Load("https://rawscripts.net/raw/Universal-Script-YARHM-12403", "YARHM") end
 })
 
 Tabs.MM2:AddButton({
-	Title = "Overdrive Unlocked",
-	Description = "Silent aim, ESP (no key required)",
+	Title = "Overdrive ¡KEYLESS!",
+	Description = "Silent aim, ESP (no key)",
 	Callback = function() Load("https://cdn.project-reverse.org/odh_3_5_crack.luau", "Overdrive Keyless") end
 })
 
 Tabs.MM2:AddButton({
-	Title = "Reverse",
+	Title = "Less Menu ¡NEW!",
 	Description = "Spawner, Auto Farm, Check Inventory, ESP and More",
-	Callback = function() Load("https://cdn.project-reverse.org/mm2_visual_new_ui.luau", "Reverse MM2") end
+	Callback = function() Load("https://pastebin.com/raw/s0vCDGaN", "Less Menu") end
 })
 
-Tabs.MM2:AddButton({
-	Title = "Overdrive Hub",
-	Description = "Silent aim, ESP, (key required) ",
-	Callback = function() Load("https://api.overdrivehub.xyz/v1/auth", "Overdrive Hub") end
-})
 
 Tabs.MM2:AddButton({
-	Title = "Meow Hub (maintenance)",
-	Description = "Silent aim, ESP, Autofarm, Bomb trick",
-	Callback = function() Load("https://pastebin.com/raw/UjS6QYkQ", "Meow Hub") end
+	Title = "Autofarm ¡HALLOWEEN!",
+	Description = "Autofarm Halloween",
+	Callback = function() Load("https://raw.githubusercontent.com/renardofficiel/games/refs/heads/main/loader.lua", "Autofarm") end
 })
 
 Tabs.Brainrot:AddButton({
